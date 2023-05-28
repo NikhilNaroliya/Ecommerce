@@ -24,13 +24,13 @@
     }
     .left {
         list-style-type: none;
-        display: none;
-        gap: 25px;
+        display: flex;
+        gap: 10px;
         @include md {
             display: flex;
         }
         li {
-            font-size: 14px;
+            font-size: 10px;
             font-weight: 600;
             text-transform: uppercase;
             cursor: pointer;
@@ -40,7 +40,8 @@
         }
     }
     .center {
-        font-size: 22px;
+        // margin-left: 7rem;
+        font-size: 16px;
         font-weight: 700;
         cursor: pointer;
         @include md {

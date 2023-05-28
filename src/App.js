@@ -16,6 +16,7 @@ function App() {
           <Route path="/category/:id" element={<Category />} />
           <Route path="/prduct/:id" element={<SingleProduct />} />
         </Routes>
+        <Newsletter/>
         <Footer/>
       </AppContext>
     </BrowserRouter>
